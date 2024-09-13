@@ -1,0 +1,41 @@
+# Node modules directory
+node_modules/
+
+# Build output directories
+dist/
+.next/
+
+# Environment variable files
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Localhost and temporary directories
+localhost*
+*.log
+
+# Vercel specific directories
+.vercel/
+
+# MacOS Finder metadata
+.DS_Store
+
+# Windows thumbnail cache
+Thumbs.db
+
+# IDE/editor directories
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# OS-specific files
+*.swp
+*.swo
+
+# Other temporary files
+*.tmp
+*.temp

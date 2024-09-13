@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./", // Set base URL to resolve non-relative module names
+    "paths": {
+      "@/*": ["src/*"] // Configure path aliases
+    },
+    "strict": true, // Enable strict type-checking options
+    "jsx": "react-jsx", // For React projects, use 'react-jsx' or 'react-jsxdev'
+    "moduleResolution": "node", // Use Node.js module resolution
+    "esModuleInterop": true, // Enables compatibility with common JS modules
+    "skipLibCheck": true, // Optional: Skips type checking of declaration files
+    "lib": ["dom", "esnext"] // Include the DOM and ESNext libraries for global types
+  },
+  "include": ["src/**/*"], // Include all files in the src directory
+  "exclude": ["node_modules", "**/*.test.ts"] // Exclude node_modules and test files
+}
